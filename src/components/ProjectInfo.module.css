@@ -1,0 +1,27 @@
+.info{
+    width: 80%;
+    height: 80%;
+    margin: auto auto;
+    /**padding-top: 3%;**/
+    font-family: sans-serif;
+}
+
+.logo{
+    font-size: 20px;
+    text-align: left;
+    color: var(--accent1);
+}
+
+.title{
+    text-align: left;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+p{
+    font-size: 20px;
+    color: var(--textSoft);
+    margin:0;
+}

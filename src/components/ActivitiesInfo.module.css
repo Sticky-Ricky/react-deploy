@@ -1,0 +1,20 @@
+.info{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.title{
+    color: var(--accent1);
+}
+
+.subTitle{
+    color: #6E7881;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+}

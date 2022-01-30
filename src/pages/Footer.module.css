@@ -1,0 +1,49 @@
+.footer{
+    background-color: var(--secondaryDark);
+    height: 90px;
+    padding-top:2%;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--textSoft);
+    padding-top: 2%;
+}
+
+.links{
+    width: 40%;
+    float: right;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.list{
+    display: inline;
+}
+
+.list li{
+    display: inline;
+    text-decoration: none;
+}
+
+a{
+    color: var(--textSoft);
+}
+
+a:hover{
+    color: var(--accent1);
+    transform: scale(1.1);
+}
+
+.left{
+    padding-right: 15%;
+}

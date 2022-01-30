@@ -1,0 +1,44 @@
+.contact{
+    color:white;
+    background-color: var(--primaryDark);
+    padding-top: 7%;
+    padding-bottom: 5%;
+    width:100%;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.subTitle{
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2%;
+}
+
+h3{
+    color:white;
+    text-align: center;
+}
+
+.row{
+    height: 200px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+}
+
+.contactInfo1{
+    width:20%;
+    height: 100%;
+    margin: auto 0;
+    float:left;
+    padding-right: 20%;
+}
+
+.contactInfo2{
+    width:20%;
+    height: 100%;
+    margin: auto 0;
+    float:right;
+}

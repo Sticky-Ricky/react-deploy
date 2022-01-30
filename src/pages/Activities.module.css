@@ -1,0 +1,38 @@
+.activitiesDiv{
+    background-color: var(--secondaryDark);
+    padding-bottom: 7%;
+    padding-top:7%;
+}
+
+.linkDiv {
+    text-align: center; 
+}
+
+.link {
+    text-decoration: none;
+    color:blue;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.link:hover {
+    color:grey;
+}
+
+h2{
+    padding-bottom: 5%;
+    color: var(--text);
+    font-weight: 300;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header{
+    border-bottom: 2px solid grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
+}
