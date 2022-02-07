@@ -39,10 +39,10 @@ return <div id={props.idA} className = {classes.div}>
         </p>
             <Tabs>
                 <TabList>
-                    <Tab>Target</Tab>
-                    <Tab>Experience</Tab>
-                    <Tab>Skills</Tab>
-                    <Tab>Education</Tab>
+                    <Tab className={classes.tab}>Target</Tab>
+                    <Tab className={classes.tab}>Experience</Tab>
+                    <Tab className={classes.tab}>Skills</Tab>
+                    <Tab className={classes.tab}>Education</Tab>
                 </TabList>
 
                 <TabPanel>

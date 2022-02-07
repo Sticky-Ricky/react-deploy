@@ -17,12 +17,13 @@
     "react-skills-bars": "^1.0.0-development",
     "react-tabs": "^3.2.3",
     "react-typist": "^2.0.5",
+    "react-typist-cycle": "^0.1.2",
     "react-typist-loop": "^1.0.0",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",   
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
