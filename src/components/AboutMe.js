@@ -2,6 +2,7 @@ import classes from './AboutMe.module.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 /**import Styles from './react-tabs.module.css';**/
 import SkillBars from './SkillBars';
+import Pdf from './EricHesseResume.pdf'
 
 const SKILLS = [
     {type: "C", level: 4},
@@ -17,14 +18,14 @@ const SKILLS = [
 function About(props){
 return <div id={props.idA} className = {classes.div}>
     <section className = {classes.left}>
-        <img className= {classes.img} src= "https://i.insider.com/5d6822bc2e22af24f965daf4?width=2000&format=jpeg&auto=webp" alt="Personal"/>
+        <img className= {classes.img} src= "https://numenta.com/wp-content/uploads/2021/01/AdobeStock_237619432-1024x585.jpeg" alt="Personal"/>
         <div className={classes.buttonRow}>
             <a href= "#contact">
                 <button className = {classes.b1}>
                     Hire Me
                 </button>
             </a>
-            <a title="CV" href="EricHesseResume.pdf" >
+            <a title="CV" href={Pdf} target="_blank" rel="noreferrer">
                 <button className = {classes.b2}>
                     Download CV
                 </button>
