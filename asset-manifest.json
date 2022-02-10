@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.12e8daec.css",
-    "main.js": "/react-deploy/static/js/main.5c8d3702.js",
-    "index.html": "/react-deploy/index.html",
-    "main.12e8daec.css.map": "/react-deploy/static/css/main.12e8daec.css.map",
-    "main.5c8d3702.js.map": "/react-deploy/static/js/main.5c8d3702.js.map"
+    "main.css": "/static/css/main.12e8daec.css",
+    "main.js": "/static/js/main.932541cb.js",
+    "static/media/EricHesseResume.pdf": "/static/media/EricHesseResume.5952293d5c7a39bb20c6.pdf",
+    "index.html": "/index.html",
+    "main.12e8daec.css.map": "/static/css/main.12e8daec.css.map",
+    "main.932541cb.js.map": "/static/js/main.932541cb.js.map"
   },
   "entrypoints": [
     "static/css/main.12e8daec.css",
-    "static/js/main.5c8d3702.js"
+    "static/js/main.932541cb.js"
   ]
 }
